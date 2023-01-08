@@ -1,0 +1,99 @@
+.main{
+    
+    height: 100%;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+#html5shim-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 80%;
+}
+#foo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+#_canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+.cam img{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding-bottom: 30px;
+    
+}
+.cam{
+    border-radius: 4px;
+}
+.cam h4 {
+    text-align: center;
+    margin-top: 150px;
+}
+.logs{
+    
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    
+    border-radius: 3px;
+    
+    
+}
+.log{
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    
+
+}
+
+
+button{
+    font-size: 30px;
+    border: none;
+    background-color: rgb(184, 183, 183);
+    border-radius: 4px;
+    
+}
+.left button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;  
+    height: 100%;
+    width: 70%; 
+}
+.middle button{
+    height: 50px;
+    margin-bottom: 10px;
+    
+}
+.right button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;  
+    height: 100%;
+    width: 70%; 
+}
+.w-95{
+    width: 92%;
+    margin-bottom: 10px;
+}
