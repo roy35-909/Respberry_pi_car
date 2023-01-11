@@ -58,12 +58,12 @@
 
                 <div class="row w-95 m-auto">
 
-                  <div class="col-4 left"> <button> L </button> </div>
+                  <div class="col-4 left"> <button onclick="left()" onmousedown="left()"> L </button> </div>
                   <div class="col-4 middle">
-                    <div class="row"><button>F</button></div>
-                    <div class="row"><button>B</button></div>
+                    <div class="row"><button onclick="font()">F</button></div>
+                    <div class="row"><button onclick="back()">B</button></div>
                   </div>
-                  <div class="col-4 right"> <button>R</button> </div>
+                  <div class="col-4 right"> <button onclick="right()">R</button> </div>
                 </div>
                 
             </div>
@@ -111,6 +111,19 @@
         function sendMessage() {
           var message = document.getElementById('message').value;
           socket.send( message);
+        }
+
+        function left(){
+          socket.send("L");
+        }
+        function right(){
+          socket.send("R");
+        }
+        function font(){
+          socket.send("F");
+        }
+        function back(){
+          socket.send("B");
         }
       </script>
 
